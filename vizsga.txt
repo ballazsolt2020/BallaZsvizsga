@@ -1,0 +1,38 @@
+1. Portable Operating System Interface for uniX" vagy röviden POSIX
+
+2. X Window System (röviden X11 vagy X) egy hálózati és megjelenítési protokoll, amely lehetővé teszi az ablakkezelést.
+
+3. A standard input rövidítve stdin, a bemeneti adat a parancssori programok (azaz a szöveg módú programok) számára a Linuxon, pl a programot elindító számítógép billentyűje.
+
+4. A standard output rövidített stdout, a kimeneti adat a parancssori programok (azaz szöveg módú programok) állítanak elő a Linuxban  és más Unix-szerű operációs rendszerekben, pl a programot elindító számítógép képernyője.
+
+5. a daemonok a háttérben futó (olykor észrevétlenül) betöltött programon.
+
+6. A Linux gyökérkönyvtárában helyezkednek el a rendszerkönyvtárak és a felhasználók könyvtárai.
+/bin : Binárisokat, azaz futtatható programokat tartalmazó könyvtár. 
+Itt tárolódnak az alaprendszerhez szükséges parancsok és segédprogramok. 
+/etc : Itt olyan fájlok találhatók, melyek a rendszer és az egyes alkalmazások alapvető beállításaival vannak kapcsolatban. 
+A rendszer konfigurációs fájljait tartalmazza. 
+/home : Ebben a könyvtárban kapnak helyet a felhasználók saját könyvtárai. 
+Az adott könyvtáron belül a felhasználónak korlátlan joga van.
+/usr : Általában ez az egyik legnagyobb könyvtár. Olyan fájlok és könyvtárak vannak benne, 
+amelyek parancsokat (bin), rendszerparancsokat (sbin), függvénykönyvtárakat (lib), dokumentációkat (doc), kézikönyveket (man), 
+forrásokat (src), ideiglenes fájlokat (spool) tartalmaznak.
+
+7. mkdir linux-feladat
+
+8. touch linux-feladat/welcome.txt
+
+9. echo linux-feladat/welcome.txt "Hello"
+
+10. mv welcome.txt welcome2.txt
+
+11.mv welcome2.txt delete.txt
+
+12.rm delete.txt
+
+13.cat welcome.txt // bár ez nem lehet
+
+14.ls -l linux-feladat
+
+15. ifconfig
